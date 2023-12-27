@@ -2,5 +2,6 @@
 
 @section('content')
 <!-- <example-component></example-component> -->
-<portal-layout></portal-layout>
+
+<dashboard-table> </dashboard-table>
 @endsection

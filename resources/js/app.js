@@ -8,9 +8,12 @@ import vuetify from "./vuetify";
 const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
-import PortalLayout from './components/PortalLayout.vue';
+import UploadFile from './components/UploadFile.vue';
+import DashboardTable from './components/DashboardTable.vue';
+
 
 app.component('example-component', ExampleComponent);
-app.component('portal-layout',PortalLayout);
+app.component('dashboard-table', DashboardTable);
+app.component('upload-file',UploadFile);
 app.use(vuetify);
 app.mount('#app');
